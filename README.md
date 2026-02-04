@@ -2,15 +2,15 @@
 
 -[x] System Monitoring
 
--[] Service monitoring
+-[x] Service monitoring
 
--[] Web dashboard
+-[x] Web dashboard
 
--[] Alert Management
+-[x] Alert Management
 
--[] Docker Support
+-[x] Docker Support
 
--[] kubernetes Ready
+-[x] kubernetes Ready
 
 -[] CI/CD pineline
 
