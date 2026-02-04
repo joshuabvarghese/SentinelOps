@@ -2,9 +2,10 @@ name: SentinelOps CI/CD
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, CI/CD ] # Trigger on both branches
   pull_request:
     branches: [ main ]
+  workflow_dispatch: # This adds a manual "Run" button in the Actions tab
 
 jobs:
   build-and-test:
@@ -32,5 +33,5 @@ jobs:
 
       - name: Validate Kubernetes Manifests
         run: |
-          python3 -c "import yaml; yaml.safe_load(open('kubernetes.yaml'))"
+          python3 -c "import yaml; list(yaml.safe_load_all(open('kubernetes.yaml')))"
           echo "Kubernetes YAML is syntactically valid."
