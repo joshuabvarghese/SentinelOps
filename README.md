@@ -1,11 +1,11 @@
-# 🚀 SentinelOps: Cloud-Native Health Monitoring
+# 🚀 SentinelLens: Cloud-Native Health Monitoring
 
-[![SentinelOps CI/CD](https://github.com/joshuabvarghese/SentinelOps/actions/workflows/deploy.yml/badge.svg)](https://github.com/joshuabvarghese/SentinelOps/actions)
+[![SentinelLens CI/CD](https://github.com/joshuabvarghese/SentinelLens/actions/workflows/deploy.yml/badge.svg)](https://github.com/joshuabvarghese/SentinelLens/actions)
 ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=flat&logo=kubernetes&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
 
-**SentinelOps** is a professional-grade observability suite designed to monitor system health in containerized environments. It features an asynchronous monitoring engine, a Flask API, and a real-time web dashboard, all orchestrated via Kubernetes.
+**SentinelLens** is a professional-grade observability suite designed to monitor system health in containerized environments. It features an asynchronous monitoring engine, a Flask API, and a real-time web dashboard, all orchestrated via Kubernetes.
 
 ---
 
@@ -47,8 +47,8 @@ This project uses a `Makefile` to simplify complex operations. To deploy the ent
 
 ```bash
 # Clone the repository
-git clone https://github.com/joshuabvarghese/SentinelOps.git
-cd SentinelOps
+git clone https://github.com/joshuabvarghese/SentinelLens.git
+cd SentinelLens
 
 # Deploy to Kubernetes
 make k8s-deploy
